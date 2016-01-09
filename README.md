@@ -3,4 +3,4 @@
 
 ###截图
 
-![image](https://github.com/xaoyao/SmsIntercept/blob/master/Screenshot_2016-01-09-15-41-12.png)
+![image](https://github.com/xaoyao/Compass/blob/master/Screenshot_2016-01-09-15-41-12.png)
