@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             SensorManager.getOrientation(R,values);
             //计算背景的旋转角度
             float rotateDegree= - (float) Math.toDegrees(values[0]);
-            //每次旋转大于1
+            //每次旋转大于1时旋转图像
             if(Math.abs(rotateDegree-lastRotateDegree)>1){
                 //旋转补间动画
                 RotateAnimation rotateAnimation=new RotateAnimation(lastRotateDegree,rotateDegree,
